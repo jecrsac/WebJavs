@@ -1,0 +1,22 @@
+.formBrdRdsNone
+{
+	border-radius: 0px !important;
+}
+.borderColor-blue
+{
+	border-color: #077DC3;
+	border-width: 2px;
+}
+.info
+{
+	height: 150px;
+	background: #bdbdbd;
+	padding: 10px 45px;
+	margin-bottom: 20px;
+}
+/*.info p
+{
+	font-size: 35px;
+	font-weight: bold;
+	color: #5f5f5f;
+}*/

@@ -1,0 +1,23 @@
+.justify
+{
+	text-align: justify;
+}
+.negrita
+{
+	font-weight: bold;
+}
+.formatTitle
+{
+	font-size: 35px;
+	color: #077DC3;
+}
+.costo
+{
+	font-size: 30px;
+	color: #077DC3;
+}
+.txtRed
+{
+	font-size: 15px;
+	color: red;
+}

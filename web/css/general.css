@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.woff");
+}
+
+body{
+	font-family: "Avenir";
+	color: #1a1a1a !important; 
+	font-size: 16px;
+}
+
+.navbar-brand{
+	height: 100% !important;
+}
+
+.contentLegales{
+	padding-top: 10px;
+}
+.menuLegales{
+	color: #ffffff;
+}
+.menuLegales:hover{
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none !important;
+	text-shadow: 2px 2px 4px #000000;
+	cursor: pointer;
+}
+.menuLegales:focus{
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none !important;
+	text-shadow: 2px 2px 4px #000000;	
+}
+.clrPlad{
+	color: #045da9 !important;
+}
+.fs-12{
+	font-size: 12px !important;
+}
+.menuContent{
+	color: #73a8dc !important; 
+	font-size: 25px !important;
+}
+.menuContent:hover{
+	color: #22629d !important;
+	font-weight: bold;
+	height: 45px;
+	animation-name: activo;
+    animation-duration: 1s;
+}
+.item_Click{
+	color: #22629d !important;
+	font-weight: bold;
+	height: 45px;
+	animation-name: activo;
+    animation-duration: 1s;
+}
+
+@keyframes activo {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+.navbar-header{
+	float: right;
+}
+.menuUl
+{
+	float: right;
+	margin-top: 30px;	
+}
+.wdt-Logo{
+	/*width: 150px !important; */
+	/*height: 85px !important;*/
+	margin-top: 10px !important;
+}
+.width-100
+{
+	width: 100px;
+}
+.width-260
+{
+	width: 260px;
+}
+.logoSecundario{
+	width: 130px;
+	margin: 8px;
+}
+.navBar-Height{
+	height: 100px;
+	
+}
+.widthPage{
+	width: 1349px;
+}
+.navbar-default{
+	background-color: #FFF !important;
+	border-color: #f8f8f8 !important;
+}
+.formatTitle{
+	color: #1a1a1a;
+	padding-left: 15px;
+}
+
+/*PADDING ---------------------------- INI*/
+.paddingTop-10{
+	padding-top: 10px !important;
+}
+.paddingTop-9{
+	padding-top: 9px !important;
+}
+.paddingTop-25{
+	padding-top: 25px;
+}
+.paddingRight-0{
+	padding-right: 0px !important;
+}
+.paddingLeft-0{
+	padding-left: 0px !important;
+}
+.padding0-5{
+	padding: 0 5px;
+}
+.padding0-10{
+	padding: 0 10px;
+}
+.padding0-25{
+	padding: 0 25px;
+}
+.padding0-45{
+	padding: 0 45px;
+}
+/*PADDING ---------------------------- FIN*/
+
+/*MARGIN ----------------------------- INI*/
+.marginTop-100{
+	margin-top: 100px;
+}
+.marginTop-25{
+	margin-top: 25px;
+}
+.marginTop-33{
+	margin-top: 33px;
+}
+.marginTop-60{
+	margin-top: 60px;
+}
+.marginTop-75{
+	margin-top: 75px;
+}
+.marginTop-10{
+	margin-top: 10px !important;
+}
+.marginTop-24{
+	margin-top: 24px !important;
+}
+.marginRight-0{
+	margin-right: 0px !important; 
+}
+.marginRight-53{
+	margin-right: -30px !important; 
+}
+.marginBottom-4{
+	margin-bottom: 4px;
+}
+.marginBottom-20{
+	margin-bottom: 20px;
+}
+.marginBottom-25{
+	margin-bottom: 25px !important;
+}
+.marginBottom-60{
+	margin-bottom: 60px;
+}
+.marginBottom-0{
+	margin-bottom: 0px !important;
+}
+.marginLeft-0{
+	margin-left: 0px !important; 
+}
+.marginLeft-21pr{
+	margin-left: 21%; 
+}
+/*MARGIN ----------------------------- FIN*/
+
+/*TEXT ALIGN ------------------------- INI*/
+.justify{
+	text-align: justify;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+/*TEXT ALIGN ------------------------- FIN*/
+
+.fontSize-20{
+	font-size: 20px;
+}
+
+.inlineBlock{
+	display: inline-block;
+	vertical-align: top;
+}
+.textThu{
+	height: 100px;
+    /*padding-top: 10%;*/
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    text-align: center;
+    width: 63%; 
+}
+.thumbnailContent{
+	height: 280px !important;
+}
+.thumbnail:hover{
+	text-decoration: none !important;
+}
+.paddingTop-0{
+	padding-top: 0px !important;
+}
+.imgCenter{
+	margin: 0 auto !important;
+}
+
+.marginCenter{
+	margin: 0 auto !important;
+}
+
+.heightContact{
+	height: 200px;
+}
+.googleMap{
+	/*margin-left: 28%;*/
+    margin-top: 3px;
+}
+.showNone{
+	height: 0px;
+	display: none !important; 
+}
+.width-Tec{
+	width: 160px;
+	float: right;
+}
+.btnVerMas{
+	position: absolute !important;
+    margin-top: -42px;
+    margin-left: calc(100% - 100px);
+    border-radius: 0px !important;
+    background: #325E9D !important;
+    font-weight: bold !important;
+}
+
+.fullWidth{
+	width: 100%;
+}
+
+.contacto{
+	height: 200px !important;
+}
+
+.formatCaption{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.contacoTitle{
+	color: #000;
+	text-decoration: none;
+}
+
+.contacoTitle:hover{
+	text-decoration: none;
+}
+
+.height-100pr{
+	height: 100%;
+}
+
+.formatContacto
+{
+	color: #fff;
+	/*margin-top: 35%;*/
+	/*margin-top: calc(100% - 270px);*/
+	margin-top: 150px;
+}
+.contactoContent{
+	/*display: block;*/
+}
+.contactoContent:hover{
+	/*text-decoration: none;*/
+}
+.contactoContent:link{
+	/*text-decoration: none;*/
+}
+.contactoClick{
+	color: #325e9d !important;
+}
+/*.contacoTitle:hover{
+	color: #325e9d ;
+}*/
+
+.formatTitle-TecInd{
+	color: #CE952C;
+	font-weight: 600 !important;
+}
+.imgFull{
+	height: 240px;
+}
+.imgFullMB{
+	height: 240px;
+}
+.imgFullContent > img{
+	height: 120px;
+}
+
+.closeImage, .closeImageIndustria{
+	position: absolute;
+    background: rgba(50, 94, 157, 0.9);
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    
+    cursor: pointer;
+}
+
+.tituloImage{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+    background: rgba(50, 94, 157, 0.9);
+    padding: 0 10px;
+}
+
+.glyphicon-chevron-left{
+    padding: 5px !important;
+}
+
+.formatModalTitle{
+	font-size: 30px !important;
+    color: #325e9d;
+    font-weight: bold;
+}
+
+.formatSubtitle{
+    font-size: 23px;
+    color: #325e9d;
+    font-weight: bold;
+}
+
+.nameTecnico{
+	color: #325e9d;
+    font-weight: bold;
+}
+
+.contentImg{
+	border-right: 1px solid #325e9d;
+}
+.marginBottom-10{
+	margin-bottom: 10px;
+}
+.textSigla{
+	background: #325e9d;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    height: 100%;
+    display: table;
+}
+.contentTecnica{
+	height: 45px;
+}
+.middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.titleLegales{
+	color: #a48d28;
+    font-weight: bold;
+}
+.olLegales > li{
+	color: #a48d28;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.usai{
+	color: #a48d28;
+	font-weight: bold;
+}
+.bold{
+	font-weight: bold;
+}
+.wdtImgIndustria
+{
+	width: 177px !important;
+	height: 177px !important;
+}
+.titleTecnica{
+	font-weight: bold;
+    color: #325e9d;
+}
+.caracteristicasTecnica{
+	font-weight: bold;
+}
+
+.widthPersonal{
+	width: 149px;
+}
+
+.formatContacto{
+	background: #4bb7e1 !important;
+    border-radius: 25px !important;
+    color: #fff !important;
+    margin-top: 20px !important;
+}
+
+.terminosCondiciones{
+	height: 40px;
+}
+
+.contenidoTerminosCondiciones {
+    height: 100%;
+    background: #045da9;
+    color: #fff;
+}
+
+.legales
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+.legales:hover
+{
+	color: #e9ae4a;
+	text-decoration: none;
+}
+.olPlad li{
+	margin-bottom: 15px;
+}

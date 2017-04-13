@@ -1,0 +1,158 @@
+@media (min-width: 1200px)
+{
+	.height-Row {
+    	height: auto;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px)
+{
+	.margin-Top-9{
+		margin-top: 5%;
+	}
+	.paddingRight-20{
+    	padding-right: 20px;
+	}
+	.navbar-nav{
+		margin-left: 10%;
+	}
+	.height-Row {
+    	height: auto;
+	}
+	.marginTop-10 {
+    	margin-top: 10px !important;
+    	margin-bottom: 10px;
+	}
+	.imgGastos, .imgGatosFunerarios, .imgHogar, .imgAutos, .imgEmpresas{
+		margin-bottom: 10px;
+	}
+	.titleHogar{
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+	.margin-Top-9{
+		margin-top: 0%;
+	}
+	.navBar-Height {
+    	height: 210px;
+	}
+	.paddingTop-150{
+		padding-top: 210px;
+	}
+	.paddingRight-20{
+    	/*padding-right: 0;*/
+    	width: 18%;
+	}
+	.navbar-nav{
+		width: 100%;
+	}
+	.navbar-header, .navbar-brand{
+		width: 100%;
+	}
+	.padding-None{
+		/*padding-right: 0% !important;*/
+		width: 10%;
+	}
+	.wdt-Logo{
+		margin-left: 40%;
+		margin-top: 2% !important;
+	}
+	/*.wdtFijo {
+    	width: 0px;
+	}*/
+	.paddingLeft-90{
+		padding-left: 0px;
+	}
+	.height-Row {
+    	height: auto;
+	}
+	.marginTop-10 {
+    	margin-top: 10px !important;
+    	margin-bottom: 10px;
+	}
+	.imgGastos, .imgGatosFunerarios, .imgHogar, .imgAutos, .imgEmpresas{
+		margin-bottom: 10px;
+	}
+	.titleGastos{
+		margin-top: 0px;
+	}
+	.imgGatosFunerarios{
+		margin-top: 5px; 
+	}
+	.titleHogar{
+		margin-top: 0px;
+	}
+	.imgCarrusel_6{
+		height: 37%;
+	}
+	.imgCarrusel_6, .imgCarrusel_3, .imgCarrusel_5, .imgCarrusel_2, .imgCarrusel_7, .imgCarrusel_1
+	{
+		font-size: 23px;
+	}
+}
+
+
+@media (max-width: 768px)
+{
+	.navbar-brand{
+		margin-left: 32%;
+	}
+	.height-Row {
+    	height: auto;
+	}
+	.marginTop-10 {
+    	margin-top: 10px !important;
+    	margin-bottom: 10px;
+	}
+	.margin-Top-9{
+		margin-top: 4px;
+	}
+	.navbar-collapse{
+		background: #ddd;
+		max-height: 525px;
+	}
+	/*
+	.wdtFijo{
+		width: auto;
+	}*/
+	.paddingRight-20{
+		margin-bottom: 5px;
+	}
+
+	.imgCarrusel_1, .imgCarrusel_2, .imgCarrusel_3, .imgCarrusel_4, .imgCarrusel_6, .imgCarrusel_7{
+		height: 30%;
+	}
+	.contentImg_1, .contentImg_2, .contentImg_3, .contentImg_5, .contentImg_6, .contentImg_7{
+		font-size: 17px;
+	}
+	.textAlignXsContact{
+		text-align: left !important;
+	}
+	/*.liXs
+	{
+		height: 80px;
+	}*/
+	.item-Menu {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.wdtFijo {
+     width: auto; 
+	}
+}
+
+
+@media (max-width: 600px)
+{
+	.navbar-brand{
+		margin-left: 25%;
+	}
+}
+@media (max-width: 528px)
+{
+	.navbar-brand{
+		margin-left: 0%;
+	}
+}

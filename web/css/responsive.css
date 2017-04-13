@@ -1,0 +1,367 @@
+@media (min-width: 1200px)
+{
+	.show-450{
+		display: none;
+	}	
+	.formatTitleList, .listTecnicas{
+		display: none;
+	}
+	.formatCaption{
+		font-size: 17px;
+	}
+	.thumbnailContent {
+    	height: 315px !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px)
+{
+	/*.menuUl {
+    	float: initial;
+	}*/
+	.navbar-header {
+    	float: none;
+	}
+	.thumbnailContent{
+		/*height: auto !important;*/
+		height: 305px !important;
+	}
+	.marginLeft-21pr{
+		margin-left: 0;
+	}
+	.show-450{
+		display: none;
+	}
+	.formatTitleList, .listTecnicas{
+		display: none;
+	}
+	.formatCaption{
+		font-size: 17px;
+	}
+	.menuContent{
+		font-size: 17px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+		.menuContent{
+		font-size: 17px !important;
+	}
+	.navBar-Height {
+    	height: 120px;
+	}
+	.menuUl {
+    	float: initial;
+    	margin-top: 7%;
+	}
+	.navbar-header, .navbar-brand{
+		width: 100%;
+	}
+	.wdt-Logo{
+		display: block;
+    	margin: 0 auto !important;
+	}
+	.navbar-brand{
+		padding-bottom: 0px !important;
+    	padding-top: 0px !important;
+	}
+	.marginTop-165 {
+    	margin-top: 230px;
+	}
+	.padding0-5{
+		width: 16%;
+		text-align: center;
+	}
+	.marginLeft-21pr{
+		margin: 0 auto;
+	}
+	.thumbnailContent{
+		/*height: auto !important;*/
+		/*height: 215px !important;*/
+		height: 315px !important;
+	}
+	.formatCaption{
+		font-size: 15px !important;
+	}
+	.formatModalTitle{
+		margin-top: 21px !important;
+	}
+	.imgFull {
+    	height: 200px;
+	}
+	.imgFullMB{
+		height: 230px;
+	}
+	.textSigla{
+		width: 52px;
+	}
+	.contentTecnica {
+    	height: 70px;
+	}
+	.show-450{
+		display: none;
+	}
+	.formatTitleList, .listTecnicas{
+		display: none;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.navbar-toggle{
+		position: absolute;
+    	left: calc(100% - 40px);
+	}
+	.marginLeft-21pr{
+		display: block;
+    	margin: 0 auto;
+	}
+	.navbar-brand{
+		width: 96%;
+		padding-bottom: 0px;
+	}
+	.wdt-Logo{
+		display: block;
+    	margin: 0 auto;
+	}
+	.contentXs{
+		width: 100px;
+	}
+	.menuUl {
+		margin-top: 0px;
+		float: none;
+	}
+	.padding0-5{
+		text-align: center;
+	}
+	.navbar-collapse{
+		background: #ecf1f9;
+		margin-top: 20px;
+	}
+	.thumbnailContent {
+    	height: auto !important;
+	}
+	.formatCaption{
+		font-size: 15px !important;
+	}
+	.formatModalTitle{
+		margin-top: 30px !important;
+	}
+	.imgFull {
+    	height: 200px;
+	}
+	.imgFullMB{
+		height: 237px;
+	}
+	.contentImg {
+		border-right: 0px !important;
+	}
+	.contentTecnica {
+    	height: auto; 
+	}
+	.textSigla{
+		display: block;
+	}
+	.middle {
+    	display: block;
+	}
+	.borderBottomXS{
+		border-bottom: 0px;
+	}
+	.navBar-Height {
+    	height: 100px;
+	}
+	.marginTop-165 {
+    	margin-top: 200px;
+	}
+	.show-450{
+		display: none;
+	}
+	.formatTitleList, .listTecnicas{
+		display: none;
+	}
+	.navbar-header {
+    float: initial;
+	}
+	.imgInicioXs{
+		margin:0 auto;
+	}
+	.formatContacto{
+		margin: 15px !important;
+		padding: 5px;
+	}
+
+}
+
+@media (max-width: 750px)
+{
+	.alignXs{
+		text-align: right;
+	}
+	.alignXsAE{
+		text-align: left;
+	}
+	.widthXsImg{
+		width: 100px;
+	}
+}
+
+@media (max-width: 700px)
+{
+	.textThu{
+		font-size: 23px !important;
+	}
+	.imgFull {
+    	height: auto;
+	}
+	.imgFullMB{
+		height: 237px;
+	}
+}
+
+@media (max-width: 655px)
+{
+	.formatCaption{
+		font-size: 10px !important;
+	}
+	.wdtImgIndustria{
+		width: 150px !important;
+    	height: 150px !important;
+	}
+	.imgFullMB{
+		height: 200px;
+	}
+}
+
+@media (max-width: 620px)
+{
+	.textThu{
+		display: block;
+	    margin: 0 auto;
+	    height: 25px;
+	    width: 100%;
+	}
+	.contentXs{
+		width: 100%;
+	}
+	.imgXs{
+		display: block;
+    	margin: 0 auto;
+	}
+	.textThu{
+		font-size: 15px !important;
+	}
+
+}
+
+
+
+/*@media (max-width: 600px)
+{
+	.navbar-toggle {
+    	left: 90%;
+	}
+}*/
+@media (max-width: 500px)
+{
+	.imgFull{
+    	height: 129px;
+    	width: 114px;
+	}
+	.imgFullMB{
+    	height: 140px;
+    	width: 114px;
+	}
+	.imgXs500{
+		width: 100%;
+	}
+	.wdtImgIndustria{
+		width: 100px !important;
+    	height: 100px !important;
+	}
+}
+
+@media (max-width: 540px)
+{
+	.formatModalTitle {
+    margin-top: 0px !important;
+}
+}
+@media (max-width: 450px)
+{
+	.tableXs {
+		display: none;
+	}
+	.formatModalTitle, .listTecnicas{
+		display: block;
+	}
+	.widthXsTitle{
+		width: 100%;
+    	text-align: center;
+	}
+	.wdt-Logo{
+		width: 100px !important;
+	}
+	.navBar-Height {
+    	height: 80px;
+	}
+	.formatSubtitle, .formatTitle-TecInd, .contentLegales{
+		text-align: center;
+	}
+	.widthXsImg{
+		display: none !important;
+	}
+	.imgFull, .imgFullMB{
+		margin: 0 auto;
+	}
+	.imgXs500{
+		margin-bottom: 5px;
+	}
+	.show-450{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 15px;
+		/*width: 100%;*/
+	}
+}
+
+@media (max-width: 430px)
+{
+	.thumbnailContent {
+		height: 206px !important;
+	}
+}
+
+@media (max-width: 375px)
+{
+	.textThu{
+		/*display: none;*/
+		font-size: 12px !important;
+	}
+	.alignXs, .alignXsAE{
+		text-align: center;
+		width: 100%;
+		margin-left: 0px !important;
+	}
+	.width-375{
+		width: 100% !important;
+	}	
+	.widthXsImg{
+		width: 100%;
+	}    
+	.paddingLeft-0 {
+    	padding-left: 15px !important;
+	}
+	.paddinLeftXs{
+		padding-left: 0px !important;
+	}
+	.paddingXs-personal{
+		padding: 0 25px !important;
+	}
+	.widthPersonal {
+		margin: 0 auto;
+		display: block;
+		padding-bottom: 15px;
+	}
+}
+
